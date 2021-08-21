@@ -17,4 +17,110 @@ Fuente de la página
 
 body {
   background-color: hsl(0, 0%, 90%);
+  width: 1400px;
+  margin: 10em auto;
+}
+
+.bg-image{
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-image--top{
+  top: 0;
+  left: 0;
+}
+
+.bg-image--bottom{
+  bottom: 0;
+  right: 0;
+}
+
+header, 
+aside{
+ display: inline-block;
+ width: 450px;
+}
+
+header{
+  margin-right: 400px;
+  margin-bottom: 5em;
+}
+
+.main-title{
+  font-size: 3rem;
+  color: hsl(300, 43%, 22%);
+}
+
+.main-subtitle{
+  color: hsl(303, 10%, 53%);
+}
+
+.rate{
+  position: relative;
+  margin-bottom: 1em;
+  padding: 0 2em;
+  border-radius: 10px;
+  background-color: hsl(300, 24%, 96%);
+  line-height: 5;
+}
+
+.rate__text{
+  color: hsl(303, 10%, 53%);
+  margin-left: 1em;
+}
+
+.rate_star{
+  vertical-align: middle;
+}
+
+.rate--first{
+  left: -75px;
+}
+
+.rate--second{
+  left: -50px;
+}
+
+.testimonials{
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  margin-right: 50px;
+  padding: 2em 2.5em;
+  color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  background-color:hsl(300, 43%, 22%) ;
+}
+
+.testimonial--second{
+  top: 50px;
+}
+
+.testimonial--third{
+  top: 75px;
+}
+
+.user{
+  width: 250px;
+}
+
+.user--image{
+  border-radius: 50%;
+  max-width: 25%;
+}
+
+.user--image,
+.user__info{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.user__name,
+.user__category{
+  margin: .5em 1em;
+}
+
+.user__category{
+  color:  hsl(333, 80%, 67%);
 }
